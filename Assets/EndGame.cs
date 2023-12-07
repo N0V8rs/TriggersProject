@@ -7,5 +7,6 @@ public class EndGame : MonoBehaviour
     public void ApplicationQuit()
     {
         Application.Quit();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
